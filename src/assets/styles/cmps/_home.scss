@@ -1,0 +1,37 @@
+.seat {
+    border: 1px solid black;
+    background-color: #4a3dbb;
+    border-radius: 4px;
+    margin: 5px;
+    &.selected {
+        background-color: #e44545;
+    }
+    &.reserved {
+        background-color: #494040;
+    }
+}
+
+.modal-reserve {
+    position: absolute;
+    background-color: aliceblue;
+    height: 300px;
+    width: 400px;
+}
+
+.curr-state {
+    background-color: rgb(83, 209, 209);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+
+    &.dark {
+        background-color: rgb(20, 19, 19);
+        color: azure;
+    }
+}
+
+footer{
+    .about{
+        margin-left: 43px;
+    }
+}

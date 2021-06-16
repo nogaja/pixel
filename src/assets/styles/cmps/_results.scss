@@ -1,0 +1,48 @@
+.results-container{
+    text-align: center;
+    & h1:last-of-type{
+      margin-bottom: 52px;
+    }
+    
+    .light{
+        color: $light;
+    }
+}
+
+.review-container {
+    text-align: center;
+    justify-content: center;
+    .review {
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        margin-right: 30px;
+        font-size: 15px;
+        
+    }
+    .reviewer {
+        color: $light;
+    }
+    .reviwer-pos {
+        font-family: livvic-italic;
+         font-size: 13px;
+      
+    }
+    img {
+        width: 62px;
+        border-radius: 50%;
+        border: 2px solid #c4fffe;
+    }
+}
+
+
+@media (max-width: $mobile-breakpoint) {
+    .review-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .review{
+            margin-right: 0px;
+        }
+    }
+}

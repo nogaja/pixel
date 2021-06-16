@@ -1,0 +1,22 @@
+.desc-container{
+    .desc-box{
+        background-color: lightgrey;
+        margin-bottom: 70px;
+
+        &.left{
+            width: 445px;
+            height: 141px;
+        }
+        &.right{
+            width: 445px;
+            height: 141px;
+        }
+    }
+}
+
+
+@media (max-width: $mobile-breakpoint) {
+    .desc-container{
+        flex-direction: column;
+    }
+}

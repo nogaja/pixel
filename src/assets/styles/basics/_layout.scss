@@ -1,0 +1,14 @@
+.main-container {
+    margin: 0 130px;
+    &.full{
+        margin:0;
+    }
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .main-container {
+        margin: 0 24px;
+    }
+
+}
+

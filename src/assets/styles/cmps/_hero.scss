@@ -1,0 +1,22 @@
+.hero-container {
+    margin-bottom: 257px;
+    .hero-box {
+        background-color: lightgrey;
+        &.left {
+            width: 635px;
+            height: 193px;
+        }
+        &.right {
+            width: 445px;
+        }
+    }
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+}

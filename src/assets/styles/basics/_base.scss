@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+// ::selection {
+//     background-color: $clr1;
+//     color: $clr6;
+// }
+
+html {
+    font-family: livvic-semi-bold;
+    line-height: 1.6;
+    color: white;
+    background-color: $indigo;
+}
+
+body {
+    font-size: rem(18px);
+    margin: 0;
+    .btn-pill {
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        /* display: inline-block; */
+        /* margin: 4px 2px; */
+        cursor: pointer;
+        border-radius: 21px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: livvic-bold;
+    margin: 0 0 0.6em;
+    line-height: 1;
+}
+
+section,
+main,
+footer {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0 0 1em;
+    max-width: 40ch;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+// a:hover {
+//     text-decoration: underline;
+// }
