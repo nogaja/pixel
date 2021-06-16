@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a084fd8.chunk.css",
+    "main.js": "/static/js/main.f0a45f7c.chunk.js",
+    "main.js.map": "/static/js/main.f0a45f7c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e837cda5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e837cda5.js.map",
+    "static/js/2.8a66616a.chunk.js": "/static/js/2.8a66616a.chunk.js",
+    "static/js/2.8a66616a.chunk.js.map": "/static/js/2.8a66616a.chunk.js.map",
+    "static/js/3.3aee6033.chunk.js": "/static/js/3.3aee6033.chunk.js",
+    "static/js/3.3aee6033.chunk.js.map": "/static/js/3.3aee6033.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.1a084fd8.chunk.css.map": "/static/css/main.1a084fd8.chunk.css.map",
+    "static/js/2.8a66616a.chunk.js.LICENSE.txt": "/static/js/2.8a66616a.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/Livvic-Thin.b26770dd.ttf",
+    "static/media/avatar-aiysha.e119a0c1.jpg": "/static/media/avatar-aiysha.e119a0c1.jpg",
+    "static/media/avatar-arthur.098c2e26.jpg": "/static/media/avatar-arthur.098c2e26.jpg",
+    "static/media/avatar-kady.78fc482c.jpg": "/static/media/avatar-kady.78fc482c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e837cda5.js",
+    "static/js/2.8a66616a.chunk.js",
+    "static/css/main.1a084fd8.chunk.css",
+    "static/js/main.f0a45f7c.chunk.js"
+  ]
+}
