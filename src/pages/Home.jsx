@@ -21,14 +21,13 @@ export function Home() {
         <footer>
           <NavLink exact to="/"><h1 role="img" aria-label="logo">myteam</h1></NavLink>
           <div className="flex">
-          <NavLink exact to="/"><p>home</p></NavLink>
-          <NavLink exact to="/about"><p className="about">about</p></NavLink>
+            <NavLink exact to="/"><p>home</p></NavLink>
+            <NavLink exact to="/about"><p className="about">about</p></NavLink>
           </div>
         </footer>
-
       </main>
     </div >
-      )
+  )
 }
 
 
