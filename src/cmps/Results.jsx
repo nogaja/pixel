@@ -10,7 +10,6 @@ export function Results() {
                 <h1>Delivering real results for top companies. </h1>
                 <h1>Some of our <span className="light">success stories.</span></h1>
                 <div className="review-container flex">
-
                     <div style={{ backgroundImage: `url(${background})` }} className="review">
                         <p> “The team perfectly fit the specialized skill set required. They focused on the most essential features
                             helping us launch the platform eight months faster than planned.”
